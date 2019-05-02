@@ -1,9 +1,13 @@
 <template>
   <div class="text-center" id="app">
-    <h1>Word Translator</h1>
-		<h5>Powered by 'Vue.js'</h5>
+    <h1>Word Translation</h1>
+    <a href="http://translate.yandex.com/">Powered by Yandex.Translate</a>
+    <br>
 		<hr>
+    <!-- When form submitted function translateText() is run -->
 		<TranslateForm v-on:formSubmit="translateText"></TranslateForm>
+    <hr>
+    <br>
 		<TranslateOutput v-text="translatedText"></TranslateOutput>
   </div>
 </template>
@@ -36,6 +40,6 @@ export default {
 
 <style>
 body {
-  background: rgb(243, 233, 234);
+  background: rgb(240, 196, 235);
 }
 </style>

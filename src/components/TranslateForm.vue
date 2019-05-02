@@ -8,8 +8,11 @@
 					<option value="es">Spanish</option>
 					<option value="fr">French</option>
 					<option value="zh">Chinese</option>
+          <option value="nl">Dutch</option>
+          <option value="pt">Portuguese</option>
+          <option value="la">Latin</option>
 				</select>
-				<input class="btn btn-primary" type="submit" value="Translate"> 
+				<input class="btn btn-info" type="submit" value="Translate">
 			</form>
   	</div>
 	</div>
@@ -25,20 +28,22 @@ export default {
 		}
 	},
 	created() {
-		this.language = "ru";
+		this.language = "es"; /* default language shown */
 	},
 	methods: {
 		formSubmit(e){
 			this.$emit('formSubmit', this.textToTranslate, this.language);
 			e.preventDefault();
 		}
-	} 
+	}
 }
 </script>
 
 <style>
-	#transForm{
+
+  /* style applied to form using id */
+	#transForm {
 		border-radius: 10px;
-		border: 1px #ccc solid;
+		border: 2px rgb(110, 107, 107) solid;
 	}
 </style>
