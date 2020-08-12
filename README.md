@@ -1,43 +1,41 @@
-# Vue App Translator
+# :zap: Vue App Translator
 
 * Vue2 app to translate a word into a different language using an API.
 
 **Note:** to open web links in a new window use: _ctrl+click on link_
 
-## Table of contents
+## :page_facing_up: Table of contents
 
-* [General info](#general-info)
-* [Screenshots](#screenshots)
-* [Technologies](#technologies)
-* [Setup](#setup)
-* [Features](#features)
-* [Status](#status)
-* [Inspiration](#inspiration)
-* [Contact](#contact)
+* [:zap: Vue App Translator](#zap-vue-app-translator)
+  * [:page_facing_up: Table of contents](#page_facing_up-table-of-contents)
+  * [:books: General info](#books-general-info)
+  * [:camera: Screenshots](#camera-screenshots)
+  * [:signal_strength: Technologies](#signal_strength-technologies)
+  * [:floppy_disk: Build Setup](#floppy_disk-build-setup)
+  * [:computer: Code Examples](#computer-code-examples)
+  * [:cool: Features](#cool-features)
+  * [:clipboard: Status & To-Do List](#clipboard-status--to-do-list)
+  * [:clap: Inspiration](#clap-inspiration)
+  * [:envelope: Contact](#envelope-contact)
 
-## General info
+## :books: General info
 
 * word translated using `v-on:formSubmit="translateText"`, language selected using `v-model="language"`.
 
-## Screenshots
+## :camera: Screenshots
 
 ![Example screenshot](./img/translation.png)
 
-## Technologies
+## :signal_strength: Technologies
 
-* [Vue framework v2.6.10](https://vuejs.org/) used by adding the vue script to
-the body of the index.html page.
-
+* [Vue framework v2.6.10](https://vuejs.org/) used by adding the vue script to the body of the index.html page.
 * [Vue CLI v3.6.3](https://cli.vuejs.org/)
-
 * [Vue Resource v1.5.1](https://www.npmjs.com/package/vue-resource) plugin for making web requests to the Promise-based translation API.
 Could have used Axios.
-
 * [Bootswatch v4.3.1](https://bootswatch.com/) Cyborg theme. Link to theme added to index.html
-
 * [Vue DevTools extension for Chrome](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd).
 
-## Build Setup
+## :floppy_disk: Build Setup
 
 ``` bash
 # install dependencies
@@ -53,7 +51,7 @@ npm run build
 npm run build --report
 ```
 
-## Code Examples
+## :computer: Code Examples
 
 * App.vue file: method to get translated word to export.
 
@@ -70,20 +68,19 @@ npm run build --report
 
 ```
 
-## Features
+## :cool: Features
 
 * Dependency list updated and all conflicts fixed.
 
-## Status & To-Do List
+## :clipboard: Status & To-Do List
 
-* Status: Working translation app.
+* Status: Not working. Error possible related to Babel and/or webpack. Also Yandex translation API no longer free.
+* To-Do: replace.
 
-* To-Do: add functionality.
-
-## Inspiration
+## :clap: Inspiration
 
 * [Traversy Media Youtube Tutorial: Build a Vue js Translator App Using The Yandex API](https://www.youtube.com/watch?v=DBADrF0C2ls)
 
-## Contact
+## :envelope: Contact
 
-Created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!!!
+* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
