@@ -14,7 +14,6 @@ export async function getServerSideProps({ query }) {
 	});
 
 	const posts = response.data.values.flat();
-	console.log(posts);
 
 	return {
 		props: {
@@ -23,6 +22,7 @@ export async function getServerSideProps({ query }) {
 	};
 }
 
+// function to display the posts with link to content page
 export default function Post({ posts }) {
 	return (
 		<article>
