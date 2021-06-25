@@ -1,6 +1,7 @@
 # :zap: Next Excel GCP
 
 * Next.js React used to connect to a GCP project excel sheet 'backend'
+* Code from [Fireship: Google Sheets… Your Next Database?](https://www.youtube.com/watch?v=K6Vcfm7TA5U) with correction/user info.
 * **Note:** to open web links in a new window use: _ctrl+click on link_
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/next-excel-gcp?style=plastic)
