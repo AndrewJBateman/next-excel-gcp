@@ -1,4 +1,4 @@
-# :zap: Next Prisma Data
+# :zap: Next Excel GCP
 
 * Next.js React used to connect to a GCP project excel sheet 'backend'
 * **Note:** to open web links in a new window use: _ctrl+click on link_
@@ -32,7 +32,7 @@
 ## :signal_strength: Technologies
 
 * [React v17](https://reactjs.org/) Javascript library.
-* [Next v10](https://nextjs.org/) minimalist framework for rendering react apps on the server.
+* [Next v11](https://nextjs.org/) minimalist framework for rendering react apps on the server.
 * [Google APIs Node.js Client](https://www.npmjs.com/package/googleapis) client library for using Google APIs.
 * [React dangerouslySetInnerHTML](https://reactjs.org/docs/dom-elements.html) "is React’s replacement for using innerHTML in the browser DOM. In general, setting HTML from code is risky because it’s easy to **inadvertently expose your users to a cross-site scripting (XSS) attack.** So, you can set HTML directly from React, but you have to type out dangerouslySetInnerHTML and pass an object with a __html key, to remind yourself that it’s dangerous."
 
@@ -72,7 +72,7 @@ export default function Post({ posts }) {
 
 ## :cool: Features - Frontend
 
-* Connecting to a GCP Docs Excel sheet using Next and not much code
+* Connecting to a GCP Docs Excel sheet using Next.js and not much code
 
 ## :clipboard: Status, Testing & To-Do List
 
