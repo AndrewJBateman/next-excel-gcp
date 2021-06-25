@@ -27,13 +27,13 @@
 
 ## :camera: Screenshots
 
-![Frontend screenshot](./imgs/list.png)
+![Image of tech](./imgs/image.png)
 
 ## :signal_strength: Technologies
 
 * [React v17](https://reactjs.org/) Javascript library.
 * [Next v11](https://nextjs.org/) minimalist framework for rendering react apps on the server.
-* [Google APIs Node.js Client](https://www.npmjs.com/package/googleapis) client library for using Google APIs.
+* [Google APIs Node.js Client npm module v78](https://www.npmjs.com/package/googleapis) client library for using Google APIs.
 * [React dangerouslySetInnerHTML](https://reactjs.org/docs/dom-elements.html) "is React’s replacement for using innerHTML in the browser DOM. In general, setting HTML from code is risky because it’s easy to **inadvertently expose your users to a cross-site scripting (XSS) attack.** So, you can set HTML directly from React, but you have to type out dangerouslySetInnerHTML and pass an object with a __html key, to remind yourself that it’s dangerous."
 
 ## :floppy_disk: Setup
